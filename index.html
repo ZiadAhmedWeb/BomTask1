@@ -7,8 +7,8 @@
 </head>
 <body>
     <div id="timer"></div>
-    <input type="button" id="stop">
-    <input type="button" id="start" onclick="mouse = setInterval(mytimer , 2000)">
+    <button onclick="clearInterrval(mytimer)">Stop</button>
+    <button  onclick="mouse = setInterval(mytimer , 2000)">Start</button>
     <script src="script.js"></script>
 </body>
 </html>
